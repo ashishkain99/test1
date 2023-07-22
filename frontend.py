@@ -1,4 +1,4 @@
-<form action="http://13.232.176.125/cgi-bin/cmd.py">
+<form action="http://52.63.59.230/cgi-bin/cmd.py">
 
 
 Command <input name="A" >
